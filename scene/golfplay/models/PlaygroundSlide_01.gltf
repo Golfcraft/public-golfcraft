@@ -1,0 +1,420 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 1,
+    "scenes" : [
+        {
+            "name" : "Ball"
+        },
+        {
+            "name" : "Parts",
+            "nodes" : [
+                5,
+                11,
+                12,
+                13,
+                14
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Bone.001",
+            "rotation" : [
+                -0.030000215396285057,
+                5.8233879940416955e-09,
+                7.453937023171875e-09,
+                0.9995499849319458
+            ],
+            "scale" : [
+                1.0000001192092896,
+                1,
+                1.0000001192092896
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Bone.003",
+            "rotation" : [
+                0.4419383108615875,
+                0.30398425459861755,
+                0.7169755697250366,
+                0.4452304244041443
+            ],
+            "scale" : [
+                1.0000001192092896,
+                1.000000238418579,
+                1.0000001192092896
+            ]
+        },
+        {
+            "name" : "Bone.002",
+            "rotation" : [
+                -0.03000020980834961,
+                0,
+                2.220757069160633e-16,
+                0.9995499849319458
+            ]
+        },
+        {
+            "name" : "Bone",
+            "rotation" : [
+                -0.030000200495123863,
+                0,
+                1.490787049363007e-08,
+                0.999549925327301
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Bone.004",
+            "rotation" : [
+                0.341170996427536,
+                -0.6073963642120361,
+                -0.23349636793136597,
+                0.6783447265625
+            ]
+        },
+        {
+            "children" : [
+                1,
+                2,
+                4
+            ],
+            "name" : "MagnetArmature"
+        },
+        {
+            "name" : "Bone.001",
+            "rotation" : [
+                -0.030000215396285057,
+                5.8233879940416955e-09,
+                7.453937023171875e-09,
+                0.9995499849319458
+            ],
+            "scale" : [
+                1.0000001192092896,
+                1,
+                1.0000001192092896
+            ]
+        },
+        {
+            "children" : [
+                6
+            ],
+            "name" : "Bone.003",
+            "rotation" : [
+                0.4419383108615875,
+                0.30398425459861755,
+                0.7169755697250366,
+                0.4452304244041443
+            ],
+            "scale" : [
+                1.0000001192092896,
+                1.000000238418579,
+                1.0000001192092896
+            ]
+        },
+        {
+            "name" : "Bone.002",
+            "rotation" : [
+                -0.03000020980834961,
+                0,
+                2.220757069160633e-16,
+                0.9995499849319458
+            ]
+        },
+        {
+            "name" : "Bone",
+            "rotation" : [
+                -0.030000200495123863,
+                0,
+                1.490787049363007e-08,
+                0.999549925327301
+            ]
+        },
+        {
+            "children" : [
+                9
+            ],
+            "name" : "Bone.004",
+            "rotation" : [
+                0.341170996427536,
+                -0.6073963642120361,
+                -0.23349636793136597,
+                0.6783447265625
+            ]
+        },
+        {
+            "children" : [
+                7,
+                8,
+                10
+            ],
+            "name" : "MagnetArmature.001"
+        },
+        {
+            "mesh" : 0,
+            "name" : "PlaygroundSlide_01_glb"
+        },
+        {
+            "mesh" : 1,
+            "name" : "PlaygroundSlide_01_collider"
+        },
+        {
+            "mesh" : 2,
+            "name" : "PlaygroundSlide_01_cannon"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "MiniTown_MAT.005",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.012",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Cube.017",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7
+                }
+            ]
+        },
+        {
+            "name" : "Cube.019",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "file1",
+            "uri" : "textures/file1.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 608,
+            "max" : [
+                2.6293959617614746,
+                2.6515085697174072,
+                0.4508478045463562
+            ],
+            "min" : [
+                -1.3446580171585083,
+                -0.05867282301187515,
+                -0.452508807182312
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 608,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 608,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 912,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 28,
+            "max" : [
+                2.6157267093658447,
+                1.8891277313232422,
+                0.3944166898727417
+            ],
+            "min" : [
+                -0.3983219861984253,
+                0.2529997229576111,
+                -0.4040433466434479
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 28,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 28,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 42,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 312,
+            "max" : [
+                2.6293959617614746,
+                2.024062395095825,
+                0.4508478045463562
+            ],
+            "min" : [
+                -0.40349429845809937,
+                0.22353217005729675,
+                -0.452508807182312
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 312,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 312,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 318,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 7296,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7296,
+            "byteOffset" : 7296
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4864,
+            "byteOffset" : 14592
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1824,
+            "byteOffset" : 19456
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 336,
+            "byteOffset" : 21280
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 336,
+            "byteOffset" : 21616
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 224,
+            "byteOffset" : 21952
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 84,
+            "byteOffset" : 22176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3744,
+            "byteOffset" : 22260
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3744,
+            "byteOffset" : 26004
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2496,
+            "byteOffset" : 29748
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 636,
+            "byteOffset" : 32244
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 32880,
+            "uri" : "PlaygroundSlide_01.bin"
+        }
+    ]
+}
+   

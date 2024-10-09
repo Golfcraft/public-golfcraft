@@ -1,0 +1,31 @@
+.Header {
+    .dcl.navbar-logo { display: none; }
+    nav {
+        display: inline-block;
+    }
+    nav ul {
+
+        li {
+            list-style: none;
+        }
+    }
+}
+
+.Logo {
+    &-img {
+        display: inline-block;
+        height: 60px;
+    }
+    ::after{
+        clear: both;
+    }
+}
+.Account {
+    margin-top:20px;
+    margin-right:10px;
+    display: inline-block;
+    float: right;
+}
+.Account-disconnected {
+    cursor: pointer;
+}

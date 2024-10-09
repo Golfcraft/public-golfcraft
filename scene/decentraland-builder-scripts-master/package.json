@@ -1,0 +1,30 @@
+{
+  "name": "decentraland-builder-scripts",
+  "version": "0.0.0-development",
+  "description": "A collection of helpers to make it easier to build a Decentraland Builder script.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "make": "npm run build && rm -rf dist && cp -r src dist && cp -r lib dist/lib && cp package.json dist/package.json && cp LICENSE dist/LICENSE && cp README.md dist/README.md",
+    "makeclean": "rm -rf dist && npm run make",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentraland/decentraland-ecs-utils.git"
+  },
+  "keywords": [],
+  "author": "Decentraland",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/decentraland/decentraland-ecs-utils/issues"
+  },
+  "homepage": "https://github.com/decentraland/decentraland-ecs-utils#readme",
+  "dependencies": {
+    "decentraland-ecs": "^6.1.4"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.2",
+    "semantic-release": "^15.13.18"
+  }
+}

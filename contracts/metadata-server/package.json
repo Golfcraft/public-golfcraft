@@ -1,0 +1,27 @@
+{
+  "name": "metadata-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "PROD=true PORT=8101 ts-node --files index.ts",
+    "dev": "PROD=false PORT=2568 ts-node --files index.ts",
+    "pm2": "pm2 start npm --time --name \"golfcraft-metadata\" -- run prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.1.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^3.0.0",
+    "playfab-sdk": "^2.76.211012",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3"
+  }
+}

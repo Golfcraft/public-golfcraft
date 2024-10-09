@@ -1,0 +1,1 @@
+Pass through the checkpoints to the finish in the given time

@@ -1,0 +1,146 @@
+specVersion: 0.0.4
+schema:
+  file: schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: Golfclub
+    network: matic
+    source:
+      address: "0xf044647af5d795a9459b7bc0bd47625d4764a222"
+      abi: Golfclub
+      startBlock: 20120526
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: wasm/assemblyscript
+      entities:
+        - Transfer
+        - Issued
+        - PlayerSet
+        - PropertySet
+      abis:
+        - name: Golfclub
+          file: Golfclub/abis/Golfclub.json
+      eventHandlers:
+        - event: Transfer(indexed address,indexed address,indexed uint256)
+          handler: handleTransfer
+        - event: Issued(uint256,address)
+          handler: handleIssued
+        - event: PlayerSet(uint256,address,address)
+          handler: handlePlayerSet
+        - event: PropertySet(uint256,uint16,uint16)
+          handler: handlePropertySet
+      file: Golfclub/Golfclub.wasm
+  - kind: ethereum/contract
+    name: GolfcraftMaterials
+    network: matic
+    source:
+      address: "0xb50E29A3ccF7c0AB133ea7de46B09D0D8fEAfdF0"
+      abi: GolfcraftMaterials
+      startBlock: 28240300
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: wasm/assemblyscript
+      entities:
+        - TransferBatch
+        - TransferSingle
+      abis:
+        - name: GolfcraftMaterials
+          file: GolfcraftMaterials/abis/GolfcraftMaterials.json
+      eventHandlers:
+        - event: TransferBatch(indexed address,indexed address,indexed address,uint256[],uint256[])
+          handler: handleTransferBatch
+        - event: TransferSingle(indexed address,indexed address,indexed address,uint256,uint256)
+          handler: handleTransferSingle
+      file: GolfcraftMaterials/GolfcraftMaterials.wasm
+  - kind: ethereum/contract
+    name: GolfcraftParts
+    network: matic
+    source:
+      address: "0x4820e6424989c22ef7f41b67e7439ab9969fe948"
+      abi: GolfcraftParts
+      startBlock: 29652000
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: wasm/assemblyscript
+      entities:
+        - TransferBatch
+        - TransferSingle
+      abis:
+        - name: GolfcraftParts
+          file: GolfcraftParts/abis/GolfcraftParts.json
+      eventHandlers:
+        - event: TransferBatch(indexed address,indexed address,indexed address,uint256[],uint256[])
+          handler: handleTransferBatch
+        - event: TransferSingle(indexed address,indexed address,indexed address,uint256,uint256)
+          handler: handleTransferSingle
+      file: GolfcraftParts/GolfcraftParts.wasm
+  - kind: ethereum/contract
+    name: GolfcraftCrafting
+    network: matic
+    source:
+      address: "0x8E1e2bBf6dfAe62A1988d5A12969eBD057597E4A"
+      abi: GolfcraftCrafting
+      startBlock: 30111000
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: wasm/assemblyscript
+      entities:
+        - partCrafted
+        - recipeAdded
+        - recipeRemoved
+      abis:
+        - name: GolfcraftCrafting
+          file: GolfcraftCrafting/abis/GolfcraftCrafting.json
+      eventHandlers:
+        - event: partCrafted(indexed address,indexed uint256,uint16)
+          handler: handlePartCrafted
+        - event: recipeAdded(indexed address,indexed uint16,uint256[],uint256[])
+          handler: handleRecipeAdded
+        - event: recipeRemoved(indexed address,indexed uint16)
+          handler: handleRecipeRemoved
+      file: GolfcraftCrafting/GolfcraftCrafting.wasm
+  - kind: ethereum/contract
+    name: GolfcraftLand
+    network: matic
+    source:
+      address: "0x0776CD532B1A2c899BE7323951aE4Ca1801edD94"
+      abi: GolfcraftLand
+      startBlock: 30720000
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: wasm/assemblyscript
+      entities:
+        - Transfer
+        - LandManagerSet
+        - LandOperatorSet
+        - PartsMovedFromLand
+        - PartsMovedToLand
+        - PartsStored
+        - PartsUnstored
+        - PartsUnstoredToLand
+      abis:
+        - name: GolfcraftLand
+          file: GolfcraftLand/abis/GolfcraftLand.json
+      eventHandlers:
+        - event: Transfer(indexed address,indexed address,indexed uint256)
+          handler: handleTransfer
+        - event: LandManagerSet(address,address)
+          handler: handleLandManagerSet
+        - event: LandOperatorSet(uint256,address)
+          handler: handleLandOperatorSet
+        - event: PartsMovedFromLand(uint256,uint256[],uint256[])
+          handler: handlePartsMovedFromLand
+        - event: PartsMovedToLand(uint256,uint256[],uint256[])
+          handler: handlePartsMovedToLand
+        - event: PartsStored(address,address,uint256[],uint256[])
+          handler: handlePartsStored
+        - event: PartsUnstored(address,address,uint256[],uint256[])
+          handler: handlePartsUnstored
+        - event: PartsUnstoredToLand(address,address,uint256,uint256[],uint256[])
+          handler: handlePartsUnstoredToLand
+      file: GolfcraftLand/GolfcraftLand.wasm

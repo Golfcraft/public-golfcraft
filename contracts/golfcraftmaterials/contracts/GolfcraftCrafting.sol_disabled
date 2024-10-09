@@ -1,0 +1,69 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.0;
+
+//import "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
+import "@openzeppelin/contracts-upgradeable/access/AccessControlEnumerableUpgradeable.sol";
+import {NativeMetaTransaction} from "./NativeMetaTransaction.sol";
+import {ContextMixin} from "./ContextMixin.sol";
+
+contract GolfcraftCrafting is
+    Initializable,
+    //ContextUpgradeable,
+    AccessControlEnumerableUpgradeable,
+    NativeMetaTransaction,
+    ContextMixin
+{
+
+    function initialize(string memory domainSeparator) {
+        _setupRole(DEFAULT_ADMIN_ROLE, _msgSender());
+
+        _initializeEIP712(domainSeparator);
+    }
+
+    mapping (uint256 => address[]) private _recipes_addresses;
+    mapping (uint256 => uint[]) private _recipes_amounts;
+    mapping (uint256 => bool[]) private _recipes_active;
+
+
+    function addRecipe(uint16 type, address contract, address[] items, uint[] amounts) {
+        require(hasRole(DEFAULT_ADMIN_ROLE, _msgSender()), "GolfcraftCrafting: must have admin role to set price");
+        require(items.length == amounts.length, "GolfcraftCrafting: array lengths must match");
+
+        address
+    }
+
+
+    /**
+    * @dev Crafts a new element.
+    */
+    function craftElement(uint256 elemetId)
+        external
+        price(_getPrice(), maxPrice)
+    {
+        require(!_tokenERC721.paused(), "CompiMinter: token mint while paused");
+        require(block.timestamp > _startTime, "CompiMinter: minting event not started");
+        require(block.timestamp < _endTime, "CompiMinter: minting event ended");
+        require(_tokenCount < _totalTokenAmount, "CompiMinter: contract mint limit reached");
+        require(_accountMintCount[_msgSender()] < _maxMintByAccount, "CompiMinter: max mints reached");
+
+        _tokenCount = _tokenCount.add(1);
+
+        _accountMintCount[_msgSender()] += 1;
+
+        _tokenERC721.mint(_msgSender());
+    }
+
+
+    // This is to support Native meta transactions
+    // never use msg.sender directly, use _msgSender() instead
+    function _msgSender()
+        internal
+        override
+        view
+        returns (address sender) // Eibriel removed "payable"
+    {
+            return ContextMixin.msgSender();
+    }
+}

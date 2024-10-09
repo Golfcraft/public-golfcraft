@@ -1,0 +1,60 @@
+{
+ "display": {
+    "title": "Land Title",
+	"description": "Land Info",
+	"navmapThumbnail": "assets/thumbnail.jpg",
+    "favicon": "favicon_asset"
+   },
+  "contact": {
+    "name": "",
+    "email": ""
+  },
+  "owner": "",
+  "scene": {
+    "parcels": [
+      "57,-11",
+      "57,-10",
+      "57,-9",
+      "58,-11",
+      "58,-10",
+      "58,-9",
+      "59,-11",
+      "59,-10",
+      "59,-9"
+    ],
+    "base": "57,-11"
+  },
+    "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 12,
+        "y": 3,
+        "z": 24
+      },
+      "cameraTarget": {
+        "x": 38,
+        "y": 3,
+        "z": 24
+      }
+    }
+  ],
+
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": ""
+  },
+  "requiredPermissions": [
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "main": "bin/game.js",
+  "tags": []
+}

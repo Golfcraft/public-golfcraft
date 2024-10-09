@@ -1,0 +1,35 @@
+RENTING CONTRACT DETAILS | dclrenting.com © 2020
+
+This text is protected under copyright, any attempt to copy or reproduce the process in the contract can involve a legal sue.
+
+We will refer to the “landowner” as the entity part of the contract that offers his land for renting.
+We will refer to the “tenant” as the entity part of the contract that requests to rent a land paying a monthly price.
+We will refer to the “platform” as the entity that acts as mediator in the contract, representing dclrenting.com
+We will refer to “land” as the LAND token from “decentraland” platform, stored on the main Ethereum network.
+
+The duration of the renting contract is defined by the months defined in the land ad that both, tenant and landowner, has requested or accepted in the platform. The contract start timestamp will be defined by the platform once requirements to start are reached from landowner and tenant.
+
+Before starting the renting contract:
+- Tenant candidate should create a rent request on the ad and landowner should accept it.
+- The tenant should pay the first month to the platform according to the accepted price from the land ad that was requested.
+- Landowner should give operator permission to the tenant candidate.
+- Platform will charge a 10% fee of the payments plus gas fees to landowners, which will be substracted from the amount landowner should receive.
+
+Once contract is running:
+- At the start of each month, the tenant must have paid to the platform the agreed renting price per month with a limit of 5 days.
+- If the contract is broken by the landowner before its end, the tenant has the right to receive a return of 25% of the payments from previous months that refer to the contract, and the 100% of the current month except the gas costs, also can be keept in the platform to be used for future contracts if the tenant whishes it.
+- At the end of each month, Land owner will receive a 75% of the tenant payment, saving 25% to possible indemnization if contract is broken by land owner before it finishes, once the finishes land owner can claim the rest of funds.
+
+The contract can be considered broken by landowner under following cases:
+- Operator permission removed or changed to another address not requested by tenant.
+- Land of the contract is sold.
+
+The contract can be considered broken by the tenant if monthly payment is not accomplished.
+
+In case that the contract is broken, the platform can act as a mediator to restore the contract if the current landowner and tenant agrees, otherwise the contract will be considered finished.
+
+At any moment of the running contract landowner and tenant can contact the platform vía discord or vía email to: dclrenting@gmail.com
+We can attend devolution of funds, but in case we accept, gas fees will be charged to users, landowners or tenants.
+
+Disclaimer:
+- If platform wallets are stolen or platform is hacked, we all lose, dclrenting.com refuses any responsibility on returning funds to contract parts. However, dclrenting.com will do its best to avoid this happening.

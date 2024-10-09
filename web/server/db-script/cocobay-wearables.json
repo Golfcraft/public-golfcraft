@@ -1,0 +1,864 @@
+[
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-0",
+    "name": "Golfcraft x COCOBAY Cap",
+    "itemId": "0",
+    "tierRewardName": "WOOD 3",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "available": 1000,
+    "claimed": 0,
+    "disabled": 1,
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:0/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/0",
+    "category": "wearable",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "epic",
+    "price": "999999999999000000000000000000",
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "hat",
+        "bodyShapes": [
+          "BaseMale",
+          "BaseFemale"
+        ],
+        "rarity": "epic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:0",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-0",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_cap",
+    "tierReward": 10
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-1",
+    "tierRewardName": "IRON 1",
+    "name": "Golfcraft x COCOBAY Love head",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:1/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/1",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "1",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "epic",
+    "price": "999999999000000000000000000",
+    "available": 1000,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "top_head",
+        "bodyShapes": [
+          "BaseFemale",
+          "BaseMale"
+        ],
+        "rarity": "epic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:1",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-1",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_love_head",
+    "tierReward": 70
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-10",
+    "name": "Golfcraft x COCOBAY Bananas",
+    "tierRewardName": "DIAMOND 1",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:10/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/10",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "10",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "legendary",
+    "price": "99999999000000000000000000",
+    "available": 100,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "upper_body",
+        "bodyShapes": [
+          "BaseFemale",
+          "BaseMale"
+        ],
+        "rarity": "legendary",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:10",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-10",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_bananas",
+    "tierReward": 183
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-11",
+    "name": "Golfcraft x COCOBAY Alien",
+    "tierRewardName": "SUPREME 1",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:11/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/11",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "11",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "mythic",
+    "price": "999999999000000000000000000",
+    "available": 10,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "helmet",
+        "bodyShapes": [
+          "BaseMale",
+          "BaseFemale"
+        ],
+        "rarity": "mythic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:11",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-11",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_alien",
+    "tierReward": 315
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-12",
+    "name": "Golfcraft x COCOBAY Pollito",
+    "tierRewardName": "IRON 3",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:12/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/12",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "12",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "epic",
+    "price": "9999999000000000000000000",
+    "available": 1000,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "helmet",
+        "bodyShapes": [
+          "BaseMale",
+          "BaseFemale"
+        ],
+        "rarity": "epic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:12",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-12",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_pollito",
+    "tierReward": 60
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-13",
+    "tierRewardName": "STONE 1",
+    "name": "Golfcraft x COCOBAY Hand",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:13/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/13",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "13",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "epic",
+    "price": "9999999999999000000000000000000",
+    "available": 1000,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "hands_wear",
+        "bodyShapes": [
+          "BaseMale",
+          "BaseFemale"
+        ],
+        "rarity": "epic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:13",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-13",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_hand",
+    "tierReward": 45
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-14",
+    "name": "Golfcraft x COCOBAY Watch",
+    "tierRewardName": "SILVER 3",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:14/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/14",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "14",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "epic",
+    "price": "9999999000000000000000000",
+    "available": 1000,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "hands_wear",
+        "bodyShapes": [
+          "BaseMale",
+          "BaseFemale"
+        ],
+        "rarity": "epic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:14",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-14",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_watch",
+    "tierReward": 110
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-15",
+    "name": "Golfcraft x COCOBAY Rainbow Head",
+    "tierRewardName": "MASTER 1",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:15/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/15",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "15",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "mythic",
+    "price": "9999999999000000000000000000",
+    "available": 10,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "top_head",
+        "bodyShapes": [
+          "BaseFemale",
+          "BaseMale"
+        ],
+        "rarity": "mythic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:15",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-15",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_rainbow_head",
+    "tierReward": 222
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-16",
+    "name": "Golfcraft x COCOBAY Rollers",
+    "tierRewardName": "GRAND MASTER 1",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:16/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/16",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "16",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "mythic",
+    "price": "999999999000000000000000000",
+    "available": 10,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "feet",
+        "bodyShapes": [
+          "BaseFemale",
+          "BaseMale"
+        ],
+        "rarity": "mythic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:16",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-16",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_rollers",
+    "tierReward": 266
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-17",
+    "name": "Golfcraft x COCOBAY Oink",
+    "tierRewardName": "SILVER 1",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:17/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/17",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "17",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "legendary",
+    "price": "9999999999000000000000000000",
+    "available": 100,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "helmet",
+        "bodyShapes": [
+          "BaseMale",
+          "BaseFemale"
+        ],
+        "rarity": "legendary",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:17",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-17",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_oink",
+    "tierReward": 120
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-18",
+    "name": "Golfcraft x COCOBAY Mew",
+    "tierRewardName": "MASTER 3",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:18/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/18",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "18",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "epic",
+    "price": "99999999999000000000000000000",
+    "available": 1000,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "helmet",
+        "bodyShapes": [
+          "BaseMale",
+          "BaseFemale"
+        ],
+        "rarity": "epic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:18",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-18",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_mew",
+    "tierReward": 206
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-19",
+    "name": "Golfcraft x COCOBAY T-shirt",
+    "tierRewardName": "SUPREME 3",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:19/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/19",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "19",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "mythic",
+    "price": "999999999999000000000000000000",
+    "available": 10,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "upper_body",
+        "bodyShapes": [
+          "BaseFemale",
+          "BaseMale"
+        ],
+        "rarity": "mythic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:19",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-19",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_t-shirt",
+    "tierReward": 295
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-2",
+    "name": "Golfcraft x COCOBAY Umbrella",
+    "tierRewardName": "GOLD 3",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:2/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/2",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "2",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "legendary",
+    "price": "99999999000000000000000000",
+    "available": 100,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "top_head",
+        "bodyShapes": [
+          "BaseFemale",
+          "BaseMale"
+        ],
+        "rarity": "legendary",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:2",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-2",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_umbrella",
+    "tierReward": 137
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-3",
+    "name": "Golfcraft x COCOBAY Glasses",
+    "tierRewardName": "WOOD 1",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:3/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/3",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "3",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "epic",
+    "price": "999999999000000000000000000",
+    "available": 1000,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "eyewear",
+        "bodyShapes": [
+          "BaseMale",
+          "BaseFemale"
+        ],
+        "rarity": "epic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:3",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-3",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_glasses",
+    "tierReward": 20
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-4",
+    "name": "Golfcraft x COCOBAY Peace",
+    "tierRewardName": "BRONZE 3",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:4/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/4",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "4",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "epic",
+    "price": "999999999000000000000000000",
+    "available": 1000,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "eyewear",
+        "bodyShapes": [
+          "BaseMale",
+          "BaseFemale"
+        ],
+        "rarity": "epic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:4",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-4",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_peace",
+    "tierReward": 85
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-5",
+    "name": "Golfcraft x COCOBAY Hat",
+    "tierRewardName": "GOLD 1",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:5/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/5",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "5",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "legendary",
+    "price": "999999000000000000000000",
+    "available": 100,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "hat",
+        "bodyShapes": [
+          "BaseMale",
+          "BaseFemale"
+        ],
+        "rarity": "legendary",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:5",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-5",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_hat",
+    "tierReward": 149
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-6",
+    "name": "Golfcraft x COCOBAY Headphones",
+    "tierRewardName": "GRAND MASTER 3",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:6/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/6",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "6",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "mythic",
+    "price": "9999999999999000000000000000000",
+    "available": 10,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "top_head",
+        "bodyShapes": [
+          "BaseMale",
+          "BaseFemale"
+        ],
+        "rarity": "mythic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:6",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-6",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_headphones",
+    "tierReward": 248
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-7",
+    "name": "Golfcraft x COCOBAY Jeans",
+    "tierRewardName": "BRONZE 1",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:7/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/7",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "7",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "epic",
+    "price": "9999999999000000000000000000",
+    "available": 1000,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "lower_body",
+        "bodyShapes": [
+          "BaseFemale",
+          "BaseMale"
+        ],
+        "rarity": "epic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:7",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-7",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_jeans",
+    "tierReward": 95
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-8",
+    "name": "Golfcraft x COCOBAY shorts",
+    "tierRewardName": "DIAMOND 3",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:8/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/8",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "8",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "legendary",
+    "price": "99999999000000000000000000",
+    "available": 100,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "lower_body",
+        "bodyShapes": [
+          "BaseFemale",
+          "BaseMale"
+        ],
+        "rarity": "legendary",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:8",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-8",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_shorts",
+    "tierReward": 169
+  },
+  {
+    "id": "0x9941d02def105cfeca86739ec2da0be59d90c013-9",
+    "name": "Golfcraft x COCOBAY pink shorts",
+    "tierRewardName": "STONE 3",
+    "thumbnail": "https://peer.decentraland.org/lambdas/collections/contents/urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:9/thumbnail",
+    "url": "/contracts/0x9941d02def105cfeca86739ec2da0be59d90c013/items/9",
+    "category": "wearable",
+    "contractAddress": "0x9941d02def105cfeca86739ec2da0be59d90c013",
+    "itemId": "9",
+    "beneficiary": "0x5ca6690ffc030fb09dbb49c24cdc78c1c8b59b9e",
+    "rarity": "epic",
+    "price": "999999999000000000000000000",
+    "available": 1000,
+    "isOnSale": false,
+    "creator": "0x598f8af1565003ae7456dac280a18ee826df7a2c",
+    "data": {
+      "wearable": {
+        "description": "",
+        "category": "lower_body",
+        "bodyShapes": [
+          "BaseFemale",
+          "BaseMale"
+        ],
+        "rarity": "epic",
+        "isSmart": false
+      }
+    },
+    "network": "MATIC",
+    "chainId": 137,
+    "createdAt": 1715554306000,
+    "updatedAt": 1715617687000,
+    "reviewedAt": 1715617843000,
+    "soldAt": 0,
+    "firstListedAt": null,
+    "urn": "urn:decentraland:matic:collections-v2:0x9941d02def105cfeca86739ec2da0be59d90c013:9",
+    "picks": {
+      "itemId": "0x9941d02def105cfeca86739ec2da0be59d90c013-9",
+      "count": 1,
+      "pickedByUser": false
+    },
+    "wId": "cocobay_pink_shorts",
+    "tierReward": 35
+  }
+]

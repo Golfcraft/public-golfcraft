@@ -1,0 +1,16 @@
+{
+    "name": "compicactus-web3-storage",
+    "version": "0.0.0",
+    "private": true,
+    "description": "Storing Compicactus metadata using web3.storage in Node.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "minimist": "^1.2.5",
+        "web3.storage": "^3.1.0"
+    },
+    "author": "Eibriel",
+    "license": "(Apache-2.0 AND MIT)"
+}

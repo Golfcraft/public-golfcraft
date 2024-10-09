@@ -1,0 +1,1 @@
+import golfcraft from './_game';

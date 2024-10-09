@@ -1,0 +1,12 @@
+ipfs://bafybeidvfs26ylqkvswkyxtssgccjmqxsvgoyaor3om3oihc4s7qej5kmm/GolfcraftMaterialsMetadata/{}.json
+
+ipfs://bafybeidprntkc3j73cgqlhgqj7b3owpw2bplrt3ugyskco47z22voiglg4/WOODPLANKS.png
+ipfs://bafybeicenvhjeu2i3yqducyxoguo3dgonbjq4bnbau2playxnu6gtttnue/STONEBLOCK.png
+ipfs://bafybeifiocfwsjl3zqshdys4khab4yjlncbqcllgx6xkiczj4sn2jgsimm/IRONBAR.png
+ipfs://bafybeidrncyf4fqodi5aspnfy7vy6phttizjz2yqyp7nagks4vzdbqpqwu/GOLDBAR.png
+ipfs://bafybeibf7jw77dxtzypim7gdlk5vaoymt3lmz3dlhnghvrybmrqqyaegya/DIAMOND100.png
+
+ipfs://bafybeidzvoogzrhitrt57hfqz4kepr25gxonbwgkd3jxgk2jnfystr6oii/DIAMOND.png
+
+ipfs://bafybeid6owfgwbnhlrztptosxk2nercf6qy7khbnsgkcrtn47qpgkku34y/tickets500.png
+ipfs://bafybeidiosxh42wvovirnxpkbgatwhffugg7qhnx3pirkliu5wbc4d4cra/FASHIONTICKET.png

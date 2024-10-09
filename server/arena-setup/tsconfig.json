@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {      
+        "outDir": "lib",
+        "target": "es6",
+        "module": "commonjs",
+        "allowJs": true,
+        "noImplicitAny": false,
+        "strictNullChecks": false,
+        "experimentalDecorators": true,
+        "sourceMap": false,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true
+    },
+    "transpileOnly":true,
+    "include": [
+      "arena.config.ts",  
+      "index.ts",
+      "cannon.d.ts",
+      "node_modules/cannon/build/cannon.min.js",
+    ],
+    "files": ["node_modules/cannon/build/cannon.min.js", "cannon.d.ts"] 
+}

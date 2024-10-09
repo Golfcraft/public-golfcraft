@@ -1,0 +1,337 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model course_modification {
+  ID          Int       @id @unique(map: "ID_UNIQUE") @default(autoincrement())
+  course_ID   Int?
+  definition  String?   @db.LongText
+  status      Int?      @default(0) @db.TinyInt
+  comment     String?   @db.Text
+  created     DateTime? @db.Timestamp(0)
+  previous    String?   @db.Text
+  alias       String?   @db.VarChar(45)
+  metadata    String?   @db.Text
+  publishing  Int?      @db.TinyInt
+  displayName String?   @db.VarChar(45)
+}
+
+model courses {
+  ID              Int       @id @unique(map: "ID_UNIQUE") @default(autoincrement())
+  alias           String?   @unique(map: "alias_UNIQUE") @db.VarChar(45)
+  metadata        String?   @db.VarChar(50)
+  definition      String?   @db.LongText
+  status          Int?      @db.TinyInt
+  createdBy       String?   @db.VarChar(45)
+  created         DateTime? @db.Timestamp(0)
+  updated         DateTime? @db.Timestamp(0)
+  updatedBy       String?   @db.VarChar(45)
+  mode            String?   @db.VarChar(45)
+  subType         String?   @default("1") @db.VarChar(45)
+  evaluation      Int?      @db.UnsignedSmallInt
+  averageTime     Int?      @db.UnsignedInt
+  timesAbandoned  Int?      @db.UnsignedInt
+  timesPlayed     Int?      @db.UnsignedInt
+  authorName      String?   @db.VarChar(45)
+  collectionId    Int?      @db.UnsignedInt
+  publishing      Int?      @db.TinyInt
+  tokenId         Int?      @db.UnsignedInt
+  displayName     String?   @db.VarChar(45)
+  rewards         String?   @db.Text
+  averageArea     Int?      @db.UnsignedMediumInt
+  averageDistance Int?      @db.UnsignedMediumInt
+  averageShoots   Int?      @db.UnsignedSmallInt
+  isSeason        Int?      @db.TinyInt
+  maxTierCat      Int?      @db.SmallInt
+  minTierCat      Int?      @db.SmallInt
+}
+
+model parts {
+  ID          Int       @id @unique(map: "ID_UNIQUE") @default(autoincrement())
+  alias       String    @unique(map: "alias_UNIQUE") @db.VarChar(45)
+  definition  String    @db.Text
+  created     DateTime? @db.Timestamp(0)
+  updated     DateTime? @db.Timestamp(0)
+  status      Int?      @db.TinyInt
+  thumbnail64 String?   @db.Text
+  boundingBox String?   @db.Text
+  drop_alias  String?   @db.VarChar(45)
+  drop_chance Int?      @db.UnsignedTinyInt
+  recipe      String?   @db.Text
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by the Prisma Client.
+model tournament_participant {
+  ID              Int?    @db.UnsignedInt
+  address         String  @db.VarChar(45)
+  playfab         String? @db.VarChar(45)
+  data            String? @db.Text
+  displayName     String? @db.VarChar(45)
+  participationID Int     @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedInt
+  playedAll       Boolean @default(false)
+}
+
+model tournaments {
+  ID               Int     @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedInt
+  code             String  @unique(map: "code_UNIQUE") @db.VarChar(6)
+  organizer        String  @db.VarChar(45)
+  organizer_display_name        String?  @db.VarChar(45)
+  whitelist        String? @db.Text
+  max_participants Int     @default(8) @db.UnsignedSmallInt
+  expiration_date  Int     @db.UnsignedInt
+  start_date       Int     @db.UnsignedInt
+  courses          String  @db.Text
+  min_level        Int?
+  finished         Int?    @db.TinyInt
+  rewards          String? @db.Text
+  comment          String? @db.Text
+  is_live_tournament Boolean @default(false)
+}
+
+model part_modification {
+  ID          Int       @id @unique(map: "ID_UNIQUE") @default(autoincrement())
+  part_ID     Int?
+  definition  String?   @db.Text
+  status      Int?      @db.TinyInt
+  comment     String?   @db.Text
+  created     DateTime? @db.Timestamp(0)
+  previous    String?   @db.Text
+  boundingBox String?   @db.Text
+  thumbnail64 String?   @db.Text
+  alias       String?   @db.VarChar(45)
+}
+
+model chain_queuer_log_types {
+  ID          Int     @id @db.UnsignedInt
+  description String? @db.VarChar(45)
+}
+
+model admin_users {
+  ID       Int     @id @unique(map: "ID_UNIQUE") @default(autoincrement())
+  username String? @unique(map: "username_UNIQUE") @db.VarChar(45)
+  password String? @db.VarChar(255)
+  role     String? @db.VarChar(24)
+}
+
+model chain_queuer_actions {
+  ID              Int     @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedInt
+  ID_date         BigInt? @unique(map: "ID_date_UNIQUE") @db.UnsignedBigInt
+  PlayFabId       String? @db.VarChar(45)
+  address         String? @db.VarChar(45)
+  preKey          String? @db.VarChar(45)
+  preData         String? @db.Text
+  postKey         String? @db.VarChar(45)
+  contractName    String? @db.VarChar(45)
+  contractMethod  String? @db.VarChar(45)
+  contractParams  String? @db.Text
+  state           Int?    @default(1) @db.UnsignedInt
+  preRevertKey    String? @db.VarChar(45)
+  contractAddress String? @db.VarChar(45)
+}
+
+model chain_queuer_logs {
+  ID              Int       @id @default(autoincrement())
+  created         DateTime? @default(now()) @db.Timestamp(0)
+  type            Int?      @db.UnsignedTinyInt
+  ID_date         BigInt?   @db.UnsignedBigInt
+  postResult      String?   @db.Text
+  preFailed       Int?      @db.UnsignedTinyInt
+  preResult       String?   @db.Text
+  preSending      Int?      @db.UnsignedTinyInt
+  txConfirmations Int?      @default(0) @db.SmallInt
+  txDropped       Int?      @default(0) @db.UnsignedTinyInt
+  txFailed        String?   @default("0") @db.VarChar(255)
+  txHash          String?   @db.VarChar(100)
+  txResult        String?   @db.Text
+  txStartedDate   BigInt?
+  preReverted     Int?      @db.UnsignedTinyInt
+}
+
+model material_drops {
+  ID    Int    @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedInt
+  alias String @unique(map: "alias_UNIQUE") @db.VarChar(45)
+  WD    Int?   @db.UnsignedTinyInt
+  ST    Int?   @db.UnsignedTinyInt
+  IR    Int?   @db.UnsignedTinyInt
+  GD    Int?   @db.UnsignedTinyInt
+  DM    Int?   @db.UnsignedTinyInt
+  FT    Int?   @db.UnsignedTinyInt
+}
+
+model vote_reviewer {
+  ID        Int    @id @default(autoincrement()) @db.UnsignedInt
+  address   String @db.VarChar(45)
+  PlayFabId String @db.VarChar(45)
+  active    Int    @default(1) @db.UnsignedTinyInt
+}
+
+model votes {
+  ID           Int      @id @default(autoincrement()) @db.UnsignedInt
+  PlayFabId    String   @db.VarChar(45)
+  address      String   @db.VarChar(45)
+  course_alias String   @db.VarChar(45)
+  created      DateTime @default(now()) @db.Timestamp(0)
+  reviewer     Int      @db.TinyInt
+  course_ID    Int?
+  vote         Int      @db.UnsignedTinyInt
+}
+
+model player_game {
+  ID           Int       @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedInt
+  PlayFabId    String?   @db.VarChar(45)
+  address      String?   @db.VarChar(45)
+  course_alias String?   @db.VarChar(45)
+  startTime    DateTime? @db.Timestamp(0)
+  endTime      DateTime? @db.Timestamp(0)
+  gameMode     String?   @db.VarChar(45)
+  data         String?   @db.Text
+  course_ID    Int?      @db.UnsignedInt
+  evaluated    Int?      @db.UnsignedTinyInt
+  subType      Int?      @default(1) @db.UnsignedTinyInt
+  time         Int?      @db.MediumInt
+}
+
+model confessions {
+  ID     Int    @id @default(autoincrement())
+  banned Int?   @db.TinyInt
+  text   String @db.VarChar(280)
+}
+
+model daily_missions {
+  ID          Int     @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedInt
+  alias       String? @db.VarChar(45)
+  events      String? @db.VarChar(128)
+  rewards     String? @db.VarChar(45)
+  difficulty  Int?    @db.UnsignedTinyInt
+  description String? @db.Text
+  disabled    Int?    @db.TinyInt
+}
+
+model raffle {
+  ID          Int     @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedInt
+  PlayFabId   String? @db.VarChar(45)
+  address     String? @db.VarChar(45)
+  created     String? @db.VarChar(45)
+  displayName String? @db.VarChar(45)
+}
+
+model wearables_catalog {
+  ID                Int     @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedInt
+  contract          String? @db.VarChar(45)
+  storage           String? @db.VarChar(45)
+  relay             Int?    @db.UnsignedTinyInt
+  itemId            String? @db.VarChar(45)
+  image_url         String? @db.VarChar(45)
+  wearableId        Int?    @db.UnsignedTinyInt
+  price             String? @db.VarChar(45)
+  position          String? @db.VarChar(45)
+  rotation          String? @db.VarChar(45)
+  maxStock          Int?    @db.UnsignedInt
+  supply            Int?    @db.UnsignedInt
+  minPlayerLevel    Int?    @db.UnsignedTinyInt
+  maxMintsByAddress Int?    @db.UnsignedTinyInt
+  claimed           Int?    @db.UnsignedInt
+  disabled          Int?    @db.UnsignedTinyInt
+  name              String? @db.VarChar(45)
+  trainingBonus     Int?    @db.UnsignedTinyInt
+  tierReward        Int?    @db.UnsignedSmallInt
+  tierEnabled       Int?    @db.UnsignedTinyInt
+  tierFTReward      Int?    @db.UnsignedInt
+}
+
+model wearables_collections {
+  address String  @id @unique(map: "address_UNIQUE") @db.VarChar(45)
+  name    String? @db.VarChar(45)
+}
+
+model recorded_game {
+  ID            BigInt    @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedBigInt
+  address       String?   @db.VarChar(45)
+  displayName   String?   @db.VarChar(45)
+  PlayFabId     String?   @db.VarChar(45)
+  frames        Json?
+  courseID      Int?
+  courseAlias   String?   @db.VarChar(45)
+  courseName    String?   @db.VarChar(45)
+  created       DateTime? @default(now()) @db.Timestamp(0)
+  courseVersion Int?
+  time          Int?      @db.UnsignedMediumInt
+  shots         Int?      @db.SmallInt
+
+  @@index([address, courseID, time, shots], map: "idx_recorded_game_address_courseID_time_shots")
+  @@index([courseID, time, shots], map: "idx_recorded_game_courseID_time_shots")
+}
+
+model tiers {
+  ID       Int     @id @unique(map: "ID_UNIQUE") @db.UnsignedInt
+  name     String? @db.VarChar(45)
+  category Int?    @db.UnsignedInt
+}
+
+model chest_events {
+  ID                  Int       @id @default(autoincrement()) @db.UnsignedInt
+  startDate           DateTime? @db.Timestamp(0)
+  endDate             DateTime? @db.Timestamp(0)
+  specialPrizeMessage String?   @db.VarChar(200)
+  inTournament        Int?      @db.TinyInt
+  inSeason            Int?      @db.TinyInt
+  chestRewardChances  Json?
+  bannerLinkURL       String?   @db.VarChar(250)
+  bannerImageURL      String?   @db.VarChar(250)
+}
+
+model random_rewards {
+  ID           Int      @id @default(autoincrement()) @db.UnsignedInt
+  publicKey    String?  @db.VarChar(64)
+  privateKey   String?  @db.VarChar(250)
+  initialPrice Int      @db.UnsignedInt
+  lastPrice    Int      @db.UnsignedInt
+  lastClaim    DateTime @default(now()) @db.Timestamp(0)
+}
+
+model luckyball_contracts {
+  address String    @id @unique(map: "address_UNIQUE") @db.VarChar(50)
+  status  Int       @default(0) @db.TinyInt
+  created DateTime? @default(now()) @db.DateTime(0)
+  name    String?   @db.VarChar(200)
+}
+
+model affiliate_player {
+  ID            Int     @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedInt
+  playerAddress String? @db.VarChar(45)
+  affiliateID   Int?
+  PlayFabId     String? @db.VarChar(45)
+  displayName   String? @db.VarChar(45)
+}
+
+model affiliates {
+  ID       Int     @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedInt
+  address  String? @db.VarChar(45)
+  code     String? @db.VarChar(45)
+  wearable String? @db.VarChar(45)
+}
+
+model config {
+  ID        Int     @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedInt
+  key       String? @db.VarChar(45)
+  value     String?   @db.Text
+}
+
+model tournament_organizer_reward {
+    ID          Int     @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedInt
+    organizer   String  @db.VarChar(45)
+    points      Int
+    date        DateTime @default(now()) @db.Timestamp(0)
+}
+
+model live_tournament_participations {
+    ID          Int     @id @unique(map: "ID_UNIQUE") @default(autoincrement()) @db.UnsignedInt
+    organizer   String  @db.VarChar(45)
+    points      Int
+    date        DateTime @default(now()) @db.Timestamp(0)
+}

@@ -1,0 +1,230 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 1,
+    "scenes" : [
+        {
+            "name" : "Ball"
+        },
+        {
+            "name" : "Halloween20",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "HWN20_Tree_07_glb",
+            "rotation" : [
+                0,
+                -0.5781542658805847,
+                0,
+                -0.8159274458885193
+            ],
+            "scale" : [
+                0.6214632391929626,
+                0.6214632391929626,
+                0.6214632391929626
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "HWN20_Tree_07_collider",
+            "rotation" : [
+                0,
+                -0.5781542658805847,
+                0,
+                -0.8159274458885193
+            ],
+            "scale" : [
+                0.6214632391929626,
+                0.6214632391929626,
+                0.6214632391929626
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "AtlasSolid.121",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0.20000000298023224
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.056",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Plane.009",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Genesis_TX",
+            "uri" : "textures/Genesis_TX.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2238,
+            "max" : [
+                5.3039093017578125,
+                8.9874267578125,
+                9.069683074951172
+            ],
+            "min" : [
+                -6.55830192565918,
+                -0.08205211907625198,
+                -3.690140962600708
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2238,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2238,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 2304,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1198,
+            "max" : [
+                5.279017925262451,
+                8.9874267578125,
+                9.104754447937012
+            ],
+            "min" : [
+                -6.534608840942383,
+                -0.04759130999445915,
+                -3.5913050174713135
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1198,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1198,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 1218,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 26856,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 26856,
+            "byteOffset" : 26856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17904,
+            "byteOffset" : 53712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4608,
+            "byteOffset" : 71616
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14376,
+            "byteOffset" : 76224
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14376,
+            "byteOffset" : 90600
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9584,
+            "byteOffset" : 104976
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2436,
+            "byteOffset" : 114560
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 116996,
+            "uri" : "HWN20_Tree_07.bin"
+        }
+    ]
+}
+   

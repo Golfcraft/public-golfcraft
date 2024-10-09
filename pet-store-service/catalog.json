@@ -1,0 +1,117 @@
+{
+    "pet-crate-1":{
+        "crateId": "pet-crate-1",
+        "name":"Surprise Crate",
+        "price":{
+            "PT":1000
+        },
+        "position":[4.7, 0.86, 41.87],
+        "rotation":[0,120,0],
+        "items": {
+            "voxter-pet": {
+                "type": "storage_from",
+                "contract":"0x764e5a8c9ca14b456f5afbf31bfb2fa7f1e002b6",
+                "storage":"0xb76669aE9cD1324D32e89564b81b10b2De7F6736",
+                "from": "0xCF10CD8B5Dc2323B1eb6de6164647756BAd4dE4d",
+                "name": "Voxter",
+                "id": "voxter-pet"
+            },
+            "compicactus-pet": {
+                "type": "erc721_mint",
+                "contract":"0xb1eb9be1cf04a19448355893ca357f6f010b03b6",
+                "name": "Compicatus",
+                "id": "compicactus-pet"
+            },
+            "diamond": {
+                "type": "offchain_item",
+                "name": "Diamond",
+                "id": "diamond",
+                "handle": "Gem"
+            },
+            "fashion-tickets": {
+                "type": "offchain_currency",
+                "name": "Fashion Tickets",
+                "id": "fashion-tickets",
+                "handle": "FT"
+            },
+            "pet-tickets": {
+                "type": "offchain_currency",
+                "name": "Surprise Tickets",
+                "id": "pet-tickets",
+                "handle": "PT"
+            }
+        },
+        "subcrates": {
+            "voxter": {
+                "name": "voxter",
+                "weight": 0.25,
+                "items": [
+                    {
+                        "id": "voxter-pet",
+                        "amount": 1
+                    }
+                ]
+            },
+            "compicatus": {
+                "name": "compicatus",
+                "weight": 0.05,
+                "items": [
+                    {
+                        "id": "compicactus-pet",
+                        "amount": 1
+                    }
+                ]
+            },
+            "diamond5": {
+                "name": "diamond",
+                "weight": 0.25,
+                "items": [
+                    {
+                        "id": "diamond",
+                        "amount": 5
+                    }
+                ]
+            },
+            "diamond10": {
+                "name": "diamond",
+                "weight": 0.05,
+                "items": [
+                    {
+                        "id": "diamond",
+                        "amount": 10
+                    }
+                ]
+            },
+            "fashion100": {
+                "name": "fashion",
+                "weight": 0.25,
+                "items": [
+                    {
+                        "id": "fashion-tickets",
+                        "amount": 100
+                    }
+                ]
+            },
+            "fashion200": {
+                "name": "fashion",
+                "weight": 0.1,
+                "items": [
+                    {
+                        "id": "fashion-tickets",
+                        "amount": 200
+                    }
+                ]
+            },
+            "fashion300": {
+                "name": "fashion",
+                "weight": 0.05,
+                "items": [
+                    {
+                        "id": "fashion-tickets",
+                        "amount": 300
+                    }
+                ]
+            }
+        }
+    }
+}

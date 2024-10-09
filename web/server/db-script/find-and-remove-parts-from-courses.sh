@@ -1,0 +1,1 @@
+ts-node --files ./find-parts-in-courses.ts $1 $2

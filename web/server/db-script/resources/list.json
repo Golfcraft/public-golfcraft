@@ -1,0 +1,62 @@
+{
+  "B574EA39DAFCDFA0": {
+    "PlayerId": "B574EA39DAFCDFA0",
+    "Value": 1,
+    "address": "0x1e348b256a8c259ead553af8f20cfedbbd8605a9"
+  },
+  "CE948B3EA222AD54": {
+    "PlayerId": "CE948B3EA222AD54",
+    "Value": 1,
+    "address": "0xd64b155fd51de27033ddec5a4a3eb4ce0f1d3bc3"
+  },
+  "EC8C098ED7528005": {
+    "PlayerId": "EC8C098ED7528005",
+    "Value": 1,
+    "address": "0x04d68ca02dedb32458062dcf2c906588521fbc3e"
+  },
+  "409F7C369F99C23E": {
+    "PlayerId": "409F7C369F99C23E",
+    "Value": 1,
+    "address": "0x5985eb4a8e0e1f7bca9cc0d7ae81c2943fb205bd"
+  },
+  "4FD19C4B05F13CB9": {
+    "PlayerId": "4FD19C4B05F13CB9",
+    "Value": 1,
+    "address": "0x6de40faa5d00abfb95a907118138e71bad938ba5"
+  },
+  "64B1D2E36EF15CC3": {
+    "PlayerId": "64B1D2E36EF15CC3",
+    "Value": 1,
+    "address": "0x950445dee1d70e9db6ba3f781f3708f46d0e566d"
+  },
+  "767F0DC818770D6B": {
+    "PlayerId": "767F0DC818770D6B",
+    "Value": 1,
+    "address": "0x02d0bb59a5f04a12d883751dc1605e15b4959b7e"
+  },
+  "A0C8DA183851DC9C": {
+    "PlayerId": "A0C8DA183851DC9C",
+    "Value": 2,
+    "address": "0x0a3dff6b6786e25d08168fdba2c41b550014219d"
+  },
+  "38D560E2E0BF81C2": {
+    "PlayerId": "38D560E2E0BF81C2",
+    "Value": 3,
+    "address": "0x39841efe232d80db1f02a532b589041c1978f3f6"
+  },
+  "EE03CB9D35621B78": {
+    "PlayerId": "EE03CB9D35621B78",
+    "Value": 4,
+    "address": "0xe753aa24818f85e14962845b0a8ca46e4c0000d6"
+  },
+  "FC08F4294FE11714": {
+    "PlayerId": "FC08F4294FE11714",
+    "Value": 4,
+    "address": "0xa7f00ec75664ccbb6861d3962d80f6194fcfd0aa"
+  },
+  "4EF032F9C7776575": {
+    "PlayerId": "4EF032F9C7776575",
+    "Value": 4,
+    "address": "0xcfbb134e83aab817453359a9210079306fe51347"
+  }
+}

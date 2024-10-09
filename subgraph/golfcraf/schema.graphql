@@ -1,0 +1,81 @@
+type Property @entity {
+  id: ID!
+  golfclub: Golfclub
+  property_id: Int
+  value: Int
+}
+
+type Golfclub @entity {
+  id: ID!
+  owner: Account
+  player: Account
+  properties: [Property!] @derivedFrom(field: "golfclub")
+  golfclubid: Int!
+}
+
+type Material @entity {
+  id: ID!
+}
+
+type MaterialBalance @entity {
+  id: ID!
+  owner: Account!
+  material: Material!
+  balance: Int!
+}
+
+type Part @entity {
+  id: ID!
+}
+
+type PartBalance @entity {
+  id: ID!
+  owner: Account!
+  part: Part!
+  balance: Int!
+}
+
+type LandPartBalance @entity {
+  id: ID!
+  land: GolfLand!
+  part: Part!
+  balance: Int!
+}
+
+type GolfLand @entity {
+  id: ID!
+  collection: Int!
+  owner: Account!
+  operator: Account!
+  parts: [LandPartBalance!] @derivedFrom(field: "land")
+}
+
+type StoragePartBalance @entity {
+  id: ID!
+  parts_storage: PartsStorage!
+  part: Part!
+  balance: Int!
+}
+
+type PartsStorage @entity {
+  id: ID!
+  owner: Account!
+  operator: Account!
+  parts: [StoragePartBalance!] @derivedFrom(field: "parts_storage")
+}
+
+type Account @entity {
+  id: Bytes!
+  golfclubs: [Golfclub!] @derivedFrom(field: "owner")
+  golfclubs_player: [Golfclub!] @derivedFrom(field: "player")
+  materials: [MaterialBalance!] @derivedFrom(field: "owner")
+  parts: [PartBalance!] @derivedFrom(field: "owner")
+  lands: [GolfLand!] @derivedFrom(field: "owner")
+  lands_manager: Account
+}
+
+type PartRecipe @entity {
+  id: ID!
+  material_ids: [Material!]
+  material_amounts: [Int!]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "golfclub-chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coinshop-mana": "node coinshop-script-mainnet.js",
+    "coinshop-mana-matic": "node coinshop-script-matic.js",
+    "trades": "node listen.js",
+    "pm2": "pm2 start npm --name \"golfcraft-trade-watcher\" -- run trades",
+    "pm2-coinshop-mana": "pm2 start npm --name \"golfcraft-manashop\" -- run coinshop-mana",
+    "pm2:shop": "pm2 start npm --name \"golfcraft-shop-matic\" -- run coinshop-mana-matic"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.1",
+    "playfab-sdk": "^2.74.210913",
+    "web3": "^1.5.3"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "metadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "PROD=true PORT=8113 ts-node --files ./index.ts",
+    "pm2": "pm2 start npm --time --name \"metadata-2\" -- run prod"
+  },
+  "prisma": {
+    "schema": "../prisma/schema.prisma"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "3.15.2",
+    "adminjs": "^5.7.3",
+    "body-parser": "^1.19.2",
+    "cross-fetch": "^3.1.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "playfab-sdk": "^2.81.220118",
+    "react": "=16.14.0",
+    "react-dom": "=16.14.0",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/express": "^4.17.13",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^17.0.21",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}

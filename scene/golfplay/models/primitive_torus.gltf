@@ -1,0 +1,207 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 1,
+    "scenes" : [
+        {
+            "name" : "Ball"
+        },
+        {
+            "name" : "Parts",
+            "nodes" : [
+                5,
+                6
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Bone.001",
+            "rotation" : [
+                -0.030000215396285057,
+                5.8233879940416955e-09,
+                7.453937023171875e-09,
+                0.9995499849319458
+            ],
+            "scale" : [
+                1.0000001192092896,
+                1,
+                1.0000001192092896
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Bone.003",
+            "rotation" : [
+                0.4419383108615875,
+                0.30398425459861755,
+                0.7169755697250366,
+                0.4452304244041443
+            ],
+            "scale" : [
+                1.0000001192092896,
+                1.000000238418579,
+                1.0000001192092896
+            ]
+        },
+        {
+            "name" : "Bone.002",
+            "rotation" : [
+                -0.03000020980834961,
+                0,
+                2.220757069160633e-16,
+                0.9995499849319458
+            ]
+        },
+        {
+            "name" : "Bone",
+            "rotation" : [
+                -0.030000200495123863,
+                0,
+                1.490787049363007e-08,
+                0.999549925327301
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Bone.004",
+            "rotation" : [
+                0.341170996427536,
+                -0.6073963642120361,
+                -0.23349636793136597,
+                0.6783447265625
+            ]
+        },
+        {
+            "children" : [
+                1,
+                2,
+                4
+            ],
+            "name" : "MagnetArmature.001"
+        },
+        {
+            "mesh" : 0,
+            "name" : "primitive_torus_glb"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Atlas",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.968181848526001
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Torus.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "AvatarWearables_TX",
+            "uri" : "textures/AvatarWearables_TX.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 48,
+            "max" : [
+                0.5491511821746826,
+                0.15942639112472534,
+                0.5491511821746826
+            ],
+            "min" : [
+                -0.5491511821746826,
+                -0.15942639112472534,
+                -0.5491511821746826
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 48,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 48,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 72,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 576,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 576,
+            "byteOffset" : 576
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 1152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 1536
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1680,
+            "uri" : "primitive_torus.bin"
+        }
+    ]
+}
+   

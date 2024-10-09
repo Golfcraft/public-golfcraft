@@ -1,0 +1,25 @@
+{
+  "name": "golfcraftmaterials",
+  "version": "1.0.0",
+  "description": "ERC1155 for Golfcraft materials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Golfcraft",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "@openzeppelin/hardhat-upgrades": "^1.17.0",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.4",
+    "hardhat": "^2.9.3"
+  },
+  "dependencies": {
+    "eth-sig-util": "^3.0.1",
+    "web3-eth-abi": "^1.7.3"
+  }
+}

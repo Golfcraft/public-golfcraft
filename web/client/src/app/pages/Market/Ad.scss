@@ -1,0 +1,24 @@
+.Ad {
+    .ui.card .ui.button {
+        margin:2px;
+    }   
+    
+    .WithTooltip {
+        position: relative;
+        &:hover .Tooltip {
+            display:block;
+            
+        }
+    }
+
+    .Tooltip {
+        display:none;
+        position: absolute;
+        width: 200px;
+        text-align: left;
+        top: 35px;
+        background-color: black;
+        padding: 17px;
+        z-index: 1;
+    }
+}

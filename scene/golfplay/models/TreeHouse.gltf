@@ -1,0 +1,212 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 1,
+    "scenes" : [
+        {
+            "name" : "Ball"
+        },
+        {
+            "name" : "Parts",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "TreeHouse_01_glb"
+        },
+        {
+            "mesh" : 1,
+            "name" : "TreeHouse_01_collider"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "MiniTown_MAT.004",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0
+            }
+        },
+        {
+            "name" : "default.005",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.649",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Cube.005",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "file1",
+            "uri" : "textures/file1.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 5759,
+            "max" : [
+                4.091673851013184,
+                4.947018146514893,
+                1.4924933910369873
+            ],
+            "min" : [
+                -1.4661692380905151,
+                -0.0022369883954524994,
+                -1.6790766716003418
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 5759,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 5759,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 6597,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 467,
+            "max" : [
+                4.0119524002075195,
+                4.924300193786621,
+                1.3615427017211914
+            ],
+            "min" : [
+                -1.4277253150939941,
+                -0.41136234998703003,
+                -1.360843539237976
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 467,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 467,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 696,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 69108,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 69108,
+            "byteOffset" : 69108
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 46072,
+            "byteOffset" : 138216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13194,
+            "byteOffset" : 184288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5604,
+            "byteOffset" : 197484
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5604,
+            "byteOffset" : 203088
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3736,
+            "byteOffset" : 208692
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1392,
+            "byteOffset" : 212428
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 213820,
+            "uri" : "TreeHouse.bin"
+        }
+    ]
+}
+   

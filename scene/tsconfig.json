@@ -1,0 +1,84 @@
+{
+  "compilerOptions": {
+    "outFile": "./bin/game.js",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "lib": [
+      "es2017"
+    ],
+    "noLib": false,
+    "target": "ES5",
+    "sourceMap": false,
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "paths": {
+      "colyseus.js": [
+        "node_modules/colyseus.js/dist/colyseus.d.ts",
+        "node_modules\\colyseus.js\\dist\\colyseus.d.ts"
+      ],
+      "@compicactus/dcl-scene-utils": [
+        "node_modules/@compicactus/dcl-scene-utils/dist/index.d.ts",
+        "../../../Compicactus/decentraland-compi-utils/dist/index.d.ts",
+        "node_modules\\@compicactus\\dcl-scene-utils\\dist\\index.d.ts"
+      ],
+      "decentraland-transactions": [
+        "node_modules/decentraland-transactions/decentraland-transactions.d.ts",
+        "../node_modules/decentraland-transactions/decentraland-transactions.d.ts",
+        "node_modules\\decentraland-transactions\\decentraland-transactions.d.ts"
+      ],
+      "eth-connect": [
+        "node_modules/eth-connect/eth-connect.d.ts",
+        "node_modules\\eth-connect\\eth-connect.d.ts"
+      ],
+      "@dcl/crypto-scene-utils": [
+        "node_modules/@dcl/crypto-scene-utils/dist/index.d.ts",
+        "node_modules\\@dcl\\crypto-scene-utils\\dist\\index.d.ts"
+      ],
+      "@dcl/ecs-scene-utils": [
+        "node_modules/@dcl/ecs-scene-utils/dist/index.d.ts",
+        "node_modules\\@dcl\\ecs-scene-utils\\dist\\index.d.ts"
+      ],
+      "@dcl/ui-scene-utils": [
+        "node_modules/@dcl/ui-scene-utils/dist/index.d.ts",
+        "node_modules\\@dcl\\ui-scene-utils\\dist\\index.d.ts"
+      ],
+      "@dcl/l2-scene-utils": [
+        "node_modules/@dcl/l2-scene-utils/dist/index.d.ts",
+        "node_modules\\@dcl\\l2-scene-utils\\dist\\index.d.ts"
+      ],
+      "@dcl/npc-scene-utils": [
+        "node_modules/@dcl/npc-scene-utils/dist/index.d.ts",
+        "node_modules\\@dcl\\npc-scene-utils\\dist\\index.d.ts"
+      ],
+      "@ohmyverse/time-color": [
+        "node_modules/@ohmyverse/time-color/dist/index.d.ts",
+        "node_modules\\@ohmyverse\\time-color\\dist\\index.d.ts"
+      ],
+      "@ohmyverse/oh-my-pixel-utils": [
+        "node_modules/@ohmyverse/oh-my-pixel-utils/dist/index.d.ts",
+        "node_modules\\@ohmyverse\\oh-my-pixel-utils\\dist\\index.d.ts"
+      ]
+    },
+    "baseUrl": "."
+  },
+  "transpileOnly": true,
+  "files": [
+    "src/game.ts"
+  ],
+  "include": [
+    "src/game.ts",
+    "golfplay/cannon.d.ts"
+  ],
+  "extends": "./node_modules/decentraland-ecs/types/tsconfig.json",
+  "compileOnSave": false,
+  "plugins": [
+    {
+      "transform": "ts-transform-define",
+      "replace": {
+        "__COURSE_MODELS_BASE__": "'golfplay/'"
+      }
+    }
+  ]
+}

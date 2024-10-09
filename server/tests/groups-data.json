@@ -1,0 +1,24 @@
+{
+    "g1":{
+        "players":{
+            "a":{
+                "PlayFabId":"a",
+                "shoots":[{},{},{}],
+                "holeTime":10,
+                "startTime":1
+            },
+            "b":{
+                "PlayFabId":"b",
+                "shoots":[{},{},{}],
+                "holeTime":10,
+                "startTime":3
+            },
+            "c":{
+                "PlayFabId":"c",
+                "shoots":[{},{}],
+                "holeTime":10,
+                "startTime":1
+            }
+        }
+    }
+}

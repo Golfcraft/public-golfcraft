@@ -1,0 +1,8 @@
+{
+  "name": "Golfcraf Materials",
+  "description": "Crafting materials for Golfcraft game.",
+  "image": "ipfs://QmWuyB4qnfGUSaLhvc6hv4ZMeizCuPaP3Fh514LrSWEQsA",
+  "external_link": "https://golfcraftgame.com/",
+  "seller_fee_basis_points": 100,
+  "fee_recipient": "0x5Ca6690fFC030fB09DbB49C24CDC78c1c8b59B9E"
+}

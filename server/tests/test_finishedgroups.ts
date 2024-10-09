@@ -1,0 +1,64 @@
+import {expect} from "chai";
+import 'mocha';
+
+import {
+    CompetitionGroupRoomRepresentation,
+    checkForFinishedGroups,
+    getGroupWinners,
+    getGroups,
+    interval
+} from "../competition-groups/competition-groups-main"
+
+it('Group ordered by time', function(done) {
+
+    const shot = {
+        date: 11,
+        impulse: 0
+    }
+
+    const player1 = createPlayer([shot], 40, "1")
+    const player2 = createPlayer([shot], 20, "2")
+    const player3 = createPlayer([shot], 30, "3")
+
+    const group: CompetitionGroupRoomRepresentation = {
+        id: "#000",
+        finished: false,
+        courseId: "1-2",
+        players:{
+            1: player1,
+            2: player2,
+            3: player3
+        }
+    }
+
+    const g:{[id:string]:CompetitionGroupRoomRepresentation} = getGroups()
+    g[0] = group
+
+    expect(getGroups()).to.equal(g);
+
+    //const ordered_group = getGroupWinners({"groupId": 0});
+
+    //console.log("ordered_group", ordered_group);
+
+    checkForFinishedGroups();
+
+    console.log("getGroups", getGroups());
+
+    clearInterval(interval)
+
+    done();
+});
+
+
+function createPlayer(shots:Array<any>, holetime: number, displayname: string) {
+    return {
+        userId: "usr1",
+        lobbySessionId: "ls1",
+        realm: "loki",
+        displayName: displayname,
+        startTime: 10,
+        shoots: shots,
+        holeTime: holetime,
+        PlayFabId: displayname
+    }
+}

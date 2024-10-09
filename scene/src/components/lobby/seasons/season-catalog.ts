@@ -1,0 +1,20 @@
+export const seasonCatalog = {
+    0:{
+        name:"EGYPT"
+    },
+    1:{
+        name:"SPACE"
+    },
+    2:{
+        name:"URBAN"
+    },
+    3:{
+        name:"JUNGLE"
+    },
+    4:{
+        name:"MOUNTAIN"
+    },
+    5:{
+        name:"COCOBAY"
+    }
+}

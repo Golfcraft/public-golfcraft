@@ -1,0 +1,7 @@
+const createTrainingLobby = () => {
+
+}
+
+export {
+    createTrainingLobby
+};

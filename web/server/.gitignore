@@ -1,0 +1,4 @@
+node_modules
+# Keep environment variables out of version control
+../../group-match-service/.env
+.daily-missions.json

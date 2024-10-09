@@ -1,0 +1,50 @@
+{
+    "0":{
+        "defaultName":"Star trail",
+        "description":"Exclusive golf club edition for golfcraft game",
+        "maxSupply":10,
+        "bonus":25
+    },
+    "2":{
+        "defaultName":"Star",
+        "description":"Golcraft play to earn golf club first edition",
+        "maxSupply":100,
+        "bonus": 1
+    },
+    "3":{
+        "defaultName":"Eye wide shot",
+        "description":"Golf club by Polygonal Mind",
+        "maxSupply":50,
+        "bonus":5
+    },
+    "5":{
+        "defaultName":"Pink Star",
+        "description":"Golcraft play to earn golf club second edition",
+        "maxSupply":100,
+        "bonus": 1
+    },
+    "6":{
+        "defaultName": "Poti club by Tobik",
+        "description": "Life is wood",
+        "maxSupply": 20,
+        "bonus": 15
+    },
+    "7": {
+        "defaultName": "Vampire bait",
+        "description": "Golfer blood is delicatessen",
+        "maxSupply": 100,
+        "bonus": 1
+    },
+    "8": {
+        "defaultName": "MC2 Golf club",
+        "description": "Golf raised to the cube power",
+        "maxSupply": 100,
+        "bonus": 1
+    },
+    "9": {
+        "defaultName": "COCOBAY",
+        "description": "Co-created golfclub. We came to play",
+        "maxSupply": 100,
+        "bonus": 1
+    }
+}

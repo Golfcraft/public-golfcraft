@@ -1,0 +1,2 @@
+1. Al subir el hat al builder usar la opción "replace: hair"
+2. Al hat le puse prefijo X_ porque es el mismo para ambos

@@ -1,0 +1,16 @@
+version: '3'
+services: 
+    golfcraft_db:
+        image: mysql:5.7        
+        container_name: golfcraft_db        
+        restart: always        
+        env_file: .env          
+        command: '--default-authentication-plugin=mysql_native_password'  
+        ports: 
+            - 3308:3306
+        expose:
+            - 3308    
+        volumes:
+            - golfcraft_db_data:/var/lib/mysql    
+volumes:
+    golfcraft_db_data:

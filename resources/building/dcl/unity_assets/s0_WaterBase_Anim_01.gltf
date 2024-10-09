@@ -1,0 +1,481 @@
+{
+	"asset": {
+		"generator": "Unity 2020.3.11f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3,
+			"max": [ 0.005, 0, 0.005 ],
+			"min": [ -0.005, 0, -0.005 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 36,
+			"componentType": 5126,
+			"count": 3,
+			"max": [ 0, 1, 0 ],
+			"min": [ 0, 1, 0 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3,
+			"max": [ 1, 1 ],
+			"min": [ 0, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3,
+			"max": [ -1, 0, 0, 1 ],
+			"min": [ -1, 0, 0, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 3,
+			"max": [ 2 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 300,
+			"max": [ 9.966667 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 300,
+			"max": [ 55.21296, 4.866835, -55.124 ],
+			"min": [ 55.21296, 4.866835, -55.124 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 300,
+			"max": [ 7.624198E-17, 0.9995789, 7.624198E-17, 0.9998779 ],
+			"min": [ 0, 0, 0, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 3600,
+			"componentType": 5126,
+			"count": 300,
+			"max": [ 666.1316, 401.09, 666.1316 ],
+			"min": [ 666.1316, 401.09, 666.1316 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 1200,
+			"componentType": 5126,
+			"count": 300,
+			"max": [ 9.966667 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 7200,
+			"componentType": 5126,
+			"count": 300,
+			"max": [ 55.21296, 1.830275, -55.0347 ],
+			"min": [ 55.21296, 1.830275, -55.0347 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"byteOffset": 4800,
+			"componentType": 5126,
+			"count": 300,
+			"max": [ 1, 7.355804E-18, 0.1201294, 6.123134E-17 ],
+			"min": [ -0.9999836, -8.006637E-17, -1.000256, -8.015332E-17 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 10800,
+			"componentType": 5126,
+			"count": 300,
+			"max": [ 666.1316, 401.09, 666.1316 ],
+			"min": [ 666.1316, 401.09, 666.1316 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 72,
+			"componentType": 5126,
+			"count": 200,
+			"max": [ 0.01536512, -0.007570772, 0.01549919 ],
+			"min": [ -0.01536511, -0.007570772, -0.01523108 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 2472,
+			"componentType": 5126,
+			"count": 200,
+			"max": [ 0, 1, 7.684661E-07 ],
+			"min": [ 0, 1, -7.684783E-07 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 24,
+			"componentType": 5126,
+			"count": 200,
+			"max": [ 1.601934, 0.4833388 ],
+			"min": [ -0.6022595, -0.1763777 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 48,
+			"componentType": 5126,
+			"count": 200,
+			"max": [ 0.9999254, 0, 0.9999409, 1 ],
+			"min": [ -0.9996057, 0, -0.9999409, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 6,
+			"componentType": 5123,
+			"count": 480,
+			"max": [ 199 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 4872,
+			"componentType": 5126,
+			"count": 198,
+			"max": [ 0.01536512, 0, 0.01536513 ],
+			"min": [ -0.01536512, 0, -0.01536513 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 7248,
+			"componentType": 5126,
+			"count": 198,
+			"max": [ 0, -1, 6.363802E-07 ],
+			"min": [ 0, -1, -3.84233E-07 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 1624,
+			"componentType": 5126,
+			"count": 198,
+			"max": [ 1.601859, 0.4861751 ],
+			"min": [ -0.6024206, -0.173834 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 3248,
+			"componentType": 5126,
+			"count": 198,
+			"max": [ 0.9996654, 0, 0.9999244, 1 ],
+			"min": [ -0.9999244, 0, -0.9999388, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 966,
+			"componentType": 5123,
+			"count": 480,
+			"max": [ 197 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"animations": [
+		{
+			"name": "WaterBase_Anim",
+			"channels": [
+				{
+					"sampler": 0,
+					"target": {
+						"node": 2,
+						"path": "translation"
+					}
+				},
+				{
+					"sampler": 1,
+					"target": {
+						"node": 2,
+						"path": "rotation"
+					}
+				},
+				{
+					"sampler": 2,
+					"target": {
+						"node": 2,
+						"path": "scale"
+					}
+				},
+				{
+					"sampler": 3,
+					"target": {
+						"node": 3,
+						"path": "translation"
+					}
+				},
+				{
+					"sampler": 4,
+					"target": {
+						"node": 3,
+						"path": "rotation"
+					}
+				},
+				{
+					"sampler": 5,
+					"target": {
+						"node": 3,
+						"path": "scale"
+					}
+				}
+			],
+			"samplers": [
+				{
+					"input": 5,
+					"interpolation": "LINEAR",
+					"output": 6
+				},
+				{
+					"input": 5,
+					"interpolation": "LINEAR",
+					"output": 7
+				},
+				{
+					"input": 5,
+					"interpolation": "LINEAR",
+					"output": 8
+				},
+				{
+					"input": 9,
+					"interpolation": "LINEAR",
+					"output": 10
+				},
+				{
+					"input": 9,
+					"interpolation": "LINEAR",
+					"output": 11
+				},
+				{
+					"input": 9,
+					"interpolation": "LINEAR",
+					"output": 12
+				}
+			]
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 47574,
+			"uri": "s0_WaterBase_Anim_01.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 1926,
+			"target": 34963,
+			"byteOffset": 21648
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2400,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3208,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 2400
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9624,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 5608
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6416,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 15232
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14400,
+			"byteStride": 12,
+			"byteOffset": 23574
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9600,
+			"byteStride": 16,
+			"byteOffset": 37974
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Water_Albedo.png"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0
+			},
+			"alphaMode": "BLEND",
+			"alphaCutoff": 0.5,
+			"emissiveTexture" : {
+				"index" : 0,
+				"texCoord" : 0
+			},
+			"emissiveFactor": [1, 1, 1],
+			"doubleSided": true,
+			"name": "Water_Mat"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_WaterBase_Anim_16464WaterBase_Anim",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_WaterBase_01_Anim_16478WaterBase_01_Anim",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 13,
+						"NORMAL": 14,
+						"TEXCOORD_0": 15,
+						"TANGENT": 16
+					},
+					"indices": 17,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_WaterBase_02_Anim_16476WaterBase_02_Anim",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 18,
+						"NORMAL": 19,
+						"TEXCOORD_0": 20,
+						"TANGENT": 21
+					},
+					"indices": 22,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_WaterBase_Anim",
+			"mesh": 0,
+			"children": [
+				2,
+				3
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_WaterBase_01_Anim",
+			"mesh": 1,
+			"translation": [ 55.21296, 4.866835, -55.124],
+			"scale": [ 666.1316, 401.09, 666.1316]
+		},
+		{
+			"name": "node_WaterBase_02_Anim",
+			"mesh": 2,
+			"translation": [ 55.21296, 1.830275, -55.0347],
+			"scale": [ 666.1316, 401.09, 666.1316],
+			"rotation": [1, 0, 0, -6.123234E-17]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

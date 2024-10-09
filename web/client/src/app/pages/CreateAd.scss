@@ -1,0 +1,39 @@
+.Form-Field {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    &-Label {
+        text-transform: uppercase;;
+    }
+    &-Input {
+        width:100%;
+        padding: 10px;
+        font-size: 20px;
+        box-sizing: border-box;
+    }    
+
+    &-Button {
+        cursor: pointer;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        padding: 10px;
+        background-color: #ab2cd2;
+        color: white;
+        margin: 10px;
+        border-radius: 4px;
+        &--cancel {
+            background-color: grey;
+            color: white;
+        }
+
+        &--disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        &--danger {
+            background-color: rgb(255, 38, 74);
+        }
+    }
+}
+.grey { color: grey; }

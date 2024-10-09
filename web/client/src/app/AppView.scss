@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.ui.form textarea {
+    background: black;
+    color: white;
+}
+.ui.basic.table td {
+    padding: 2px;
+}
+.Home-Panel {
+    background: url(static/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 37%;
+}
+:root {
+    --primary: #20c720 !important;
+}

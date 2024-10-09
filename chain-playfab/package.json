@@ -1,0 +1,30 @@
+{
+  "name": "chain-playfab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "PROD=true PORT=8102 ts-node --files index.ts",
+    "dev": "PROD=false PORT=2568 ts-node --files index.ts",
+    "pm2": "pm2 start npm --time --name \"golfclub\" -- run prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.6.0",
+    "body-parser": "^1.19.0",
+    "cross-fetch": "^3.1.4",
+    "dotenv": "^10.0.0",
+    "isomorphic-fetch": "^3.0.0",
+    "p-queue": "6.6.2",
+    "playfab-sdk": "^2.76.211012",
+    "promise-queue": "^2.2.5",
+    "web3": "^1.6.0",
+    "web3-eth-contract": "^1.6.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  }
+}

@@ -1,0 +1,338 @@
+{
+    "0x7ebf76b815c616a642718e7313207026e054e8a1":{
+        "contract":"0x7ebf76b815c616a642718e7313207026e054e8a1",
+        "name":"Carrot stick",
+        "items":[{
+            "name": "Carrot stick",
+            "storage": "0xa10d304f57893cc9c98be63fFf05A1A12804fD4A",
+            "relay": true,
+            "id": "carrot",
+            "wearableId":0,
+            "price":{
+                "FT":1500
+            },
+            "position":[16.84, 16, 19.09],
+            "rotation":[0,110,0],
+            "maxStock":79,
+            "supply":100
+        }]
+    },
+    "0x8a3448e1e5ebae5eabd47407ec5b5f508cc4f39b":{
+        "contract":"0x8a3448e1e5ebae5eabd47407ec5b5f508cc4f39b",
+        "name":"Golfcraft Team",
+        "items":[{
+            "name": "Golfcraft Team t-shirt",
+            "id": "golfcraft-team",
+            "wearableId":0,
+            "price":{
+                "FT":50
+            },
+            "position":[16.21, 16.03, 16.98],
+            "rotation":[0,110,0],
+            "maxStock":4000,
+            "supply":10000
+        }]
+    },
+    "0x26294e873f69a25d6ae2321e9042118eca689112":{
+        "contract":"0x26294e873f69a25d6ae2321e9042118eca689112",
+        "name":"Golf Head",
+        "items":[{
+            "name": "Golf Head",
+            "relay": true,
+            "id": "golf-head",
+            "wearableId":0,
+            "price":{
+                "FT":200
+            },
+            "position":[15.85, 16.05, 14.58],
+            "rotation":[0,110,0],
+            "maxStock":5000,
+            "supply":5000
+        }]
+    },
+
+    "0xae3d6cbe10cb4a0947c5e8362efb2802ab5098ab":{
+        "contract":"0xae3d6cbe10cb4a0947c5e8362efb2802ab5098ab",
+        "name":"Polygonal Mind University Jacket",
+        "items":[
+            {
+                "name":"Polygonal Mind University Jacket",
+                "storage": "0xaA7C83c8F82537E29Dc160C4327627f5033e4614",
+                "relay": true,
+                "id":"university-jacket",
+                "image_url": null,
+                "wearableId":0,
+                "price":{
+                    "FT":120
+                },
+                "position":[15.97,16.08,12.09],
+                "rotation":[0,70,0],
+                "maxStock":1000,
+                "supply":1000
+            }
+        ]
+    },
+
+
+    "0x4088262efc19b54529a00b96efec9de8f60febf0":{
+        "contract":"0x4088262efc19b54529a00b96efec9de8f60febf0",
+        "name":"ZG 10-1 AP",
+        "items":[{
+            "name": "ZG 10-1 AP Full Body",
+            "id": "matsumecha-body",
+            "wearableId":0,
+            "price":{
+                "FT":1000
+            },
+            "position":[18.67,16.08,9.22],
+            "rotation":[0,30,0],
+            "maxStock":800,
+            "supply":800
+        },
+        {
+            "name": "ZG 10-1 AP Helmet",
+            "id": "matsumecha-helmet",
+            "wearableId":1,
+            "price":{
+                "FT":500
+            },
+            "position":[20.85,16.07,8.56],
+            "rotation":[0,15,0],
+            "maxStock":800,
+            "supply":800
+        }]
+    },
+
+
+
+
+    "0x53a7c4bbb0f351f3b1f3f09a3e8288e1528611b1":{
+        "contract":"0x53a7c4bbb0f351f3b1f3f09a3e8288e1528611b1",
+        "name":"poti by Tobik",
+        "items":[
+            {
+                "name":"poti by Tobik",
+                "storage": "0x2757b1Af158D3E824aa0c64Fd18bC9E91B83940F",
+                "relay": true,
+                "id":"poti-tobik",
+                "image_url": null,
+                "wearableId":0,
+                "price":{
+                    "FT":200
+                },
+                "position":[25.3,15.99,8.39],
+                "rotation":[0,10,0],
+                "maxStock":500,
+                "supply":8000
+            }
+        ]
+    },
+
+
+    "0xcdd8ec9d95293bb4f90ef8710dd93e53790c4193":{
+        "contract":"0xcdd8ec9d95293bb4f90ef8710dd93e53790c4193",
+        "name":"TV Head",
+        "items":[
+            {
+                "name":"TV Head",
+                "storage": "0xf8b61b7ba59faaa703275eb9e1d416440effdb0d",
+                "relay": true,
+                "id":"tv-head",
+                "image_url": null,
+                "wearableId":0,
+                "price":{
+                    "FT":400
+                },
+                "position":[29.77,15.92,8.76],
+                "rotation":[0,5,0],
+                "maxStock":500,
+                "supply":800
+            }
+        ]
+    },
+
+
+    "0x1aeb7d9536193a3a25c74d462ec2dc88da9e50dd":{
+        "contract":"0x1aeb7d9536193a3a25c74d462ec2dc88da9e50dd",
+        "name":"Doki Hair Set",
+        "items":[
+            {
+                "name":"Twisted Pony Tail",
+                "relay": true,
+                "id":"doki-twisted-pony-tail",
+                "image_url": null,
+                "wearableId":0,
+                "price":{
+                    "FT":4000
+                },
+                "position":[29.55,16.12,29.46],
+                "rotation":[0,145,0],
+                "maxStock":95,
+                "supply":95
+            },
+            {
+                "name":"Space Buns Sparkle",
+                "relay": true,
+                "id":"doki-space-buns",
+                "image_url": null,
+                "wearableId":1,
+                "price":{
+                    "FT":4000
+                },
+                "position":[31.96,16.11,30.31],
+                "rotation":[0,160,0],
+                "maxStock":95,
+                "supply":95
+            },
+            {
+                "name":"Smart Pony Tail",
+                "relay": true,
+                "id":"doki-smart-pony-tail",
+                "image_url": null,
+                "wearableId":2,
+                "price":{
+                    "FT":500
+                },
+                "position":[33.96,16.11,30.28],
+                "rotation":[0,170,0],
+                "maxStock":990,
+                "supply":990
+            },
+            {
+                "name":"Pigtails",
+                "relay": true,
+                "id":"doki-pigtails",
+                "image_url": null,
+                "wearableId":3,
+                "price":{
+                    "FT":800
+                },
+                "position":[36.24,15.92,29.42],
+                "rotation":[0,180,0],
+                "maxStock":990,
+                "supply":990
+            },
+            {
+                "name":"Aurora Bob",
+                "relay": true,
+                "id":"doki-aurora-bob",
+                "image_url": null,
+                "wearableId":4,
+                "price":{
+                    "FT":1000
+                },
+                "position":[38.56,15.92,28.92],
+                "rotation":[0,190,0],
+                "maxStock":990,
+                "supply":990
+            }
+        ]
+    },
+
+    "0x59d3a36754d961eca320f1b7281fe9b046b2975f":{
+        "contract":"0x59d3a36754d961eca320f1b7281fe9b046b2975f",
+        "name":"Oh My Deluxe!",
+        "items":[
+            {
+                "name":"Shoes - Oh My Deluxe!",
+                "relay": true,
+                "id":"omd-shoes",
+                "image_url": null,
+                "wearableId":0,
+                "price":{
+                    "FT":20000
+                },
+                "position":[39.5,16.06,18.11],
+                "rotation":[0,-70,0],
+                "maxStock":7,
+                "supply":7
+            },
+            {
+                "name":"Pants - Oh My Deluxe!",
+                "relay": true,
+                "id":"omd-pants",
+                "image_url": null,
+                "wearableId":1,
+                "price":{
+                    "FT":30000
+                },
+                "position":[38.88,16.1,16.3],
+                "rotation":[0,-70,0],
+                "maxStock":7,
+                "supply":7
+            },
+            {
+                "name":"Cap - Oh My Deluxe!",
+                "relay": true,
+                "id":"omd-cap",
+                "image_url": null,
+                "wearableId":2,
+                "price":{
+                    "FT":20000
+                },
+                "position":[38.2,16.1,14.73],
+                "rotation":[0,-60,0],
+                "maxStock":7,
+                "supply":7
+            },
+            {
+                "name":"Vest - Oh My Deluxe!",
+                "relay": true,
+                "id":"omd-vest",
+                "image_url": null,
+                "wearableId":3,
+                "price":{
+                    "FT":30000
+                },
+                "position":[37.29,16.08,12.83],
+                "rotation":[0,-60,0],
+                "maxStock":7,
+                "supply":7
+            }
+        ]
+    },
+
+    "0x85f15ec042d64f3219a058b73ac2e459cb37e393":{
+        "contract":"0x85f15ec042d64f3219a058b73ac2e459cb37e393",
+        "name":"SoapPunk Pirate",
+        "items":[
+            {
+                "name":"Captain Cleanbeard",
+                "relay": true,
+                "id":"captain-cleanbeard",
+                "image_url": null,
+                "wearableId":0,
+                "price":{
+                    "FT":5000
+                },
+                "position":[35.05,16.08,10.71],
+                "rotation":[0,-50,0],
+                "maxStock":100,
+                "supply":100
+            }
+        ]
+    },
+
+    "0xaca48da27e3bb65ec26c361c5fd1a672802d7320":{
+        "contract":"0xaca48da27e3bb65ec26c361c5fd1a672802d7320",
+        "name":"Golfcraft 2022",
+        "items":[
+            {
+                "name":"Golfcraft 2022",
+                "relay": true,
+                "id":"golfcraft-2022",
+                "image_url": null,
+                "wearableId":0,
+                "price":{
+                    "FT":50
+                },
+                "position":[33.5,16.08,8.71],
+                "rotation":[0,-30,0],
+                "maxStock":999,
+                "supply":999,
+                "minPlayerLevel": 25,
+                "maxMintsByAddress": 2
+            }
+        ]
+    }
+}

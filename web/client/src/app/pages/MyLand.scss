@@ -1,0 +1,56 @@
+.LandList {
+
+    &-item {
+        position: relative;
+        display: inline-block;
+        margin: 4px;
+        padding: 4px;
+        
+        &-coords {
+            position: absolute;
+            top: 0;
+            padding: 6px;
+            color:white;
+        }
+
+        &-action {
+            color:white;
+            background-color: #ab2cd2;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            cursor: pointer;
+            display: block;
+            text-decoration: none;
+            &:hover {
+                color:white;
+            }
+            &--waitingVerification {
+                background-color: #dd9d12; 
+                cursor: default;
+            }
+
+            &--open {
+                background-color: #33c091; 
+            }
+
+            &--danger {
+                background-color: rgb(255, 38, 74);
+            }
+
+            &--green {
+                background-color: #33c091; 
+            }
+
+            &--blue {
+                background-color: #123bc4;
+            }
+        }
+        img {
+            height: 150px;
+            width: 150px;
+        }
+
+        
+    }
+}

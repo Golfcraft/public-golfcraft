@@ -1,0 +1,44 @@
+{
+  "display": {
+    "title": "GolfCraft minigolf",
+    "description": "Golfcraft is a minigolf game (made by Eibriel and Pablo) where players can gather materials to craft items and earn resources passively. The game has three main game modes (training, competition, and tournament) which usually consist of sending a ball to a target. Players can also make use of an in-game level editor. https://unve.rs/readGolfCraft",
+    "navmapThumbnail": "images/scene-thumbnail-v3.jpg",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "OhMyVerse",
+    "email": "info@ohmyverse.io"
+  },
+  "owner": "",
+  "scene": {
+    "parcels": [
+               "49,-46",
+      "47,-45","48,-45","49,-45",
+      "47,-44","48,-44","49,-44",
+      "47,-43","48,-43","49,-43"
+    ],
+    "base": "47,-45",
+    "rating": "T"
+  },
+  "requiredPermissions": [
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "main": "bin/game.js",
+  "tags": ["atlas:*","game","social","sports"],
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": [39, 42],
+        "y": [0.90, 0.90],
+        "z": [30, 38]
+      },
+      "cameraTarget": {
+        "x": 25,
+        "y": 3.4,
+        "z": 32
+      }
+    }
+  ]
+}
